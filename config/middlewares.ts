@@ -6,6 +6,7 @@ export default [
       origin: [
         'https://natalia-portfolio.onrender.com',
       ],
+      credentials: true,
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       headers: ['Content-Type', 'Authorization'],
     },
