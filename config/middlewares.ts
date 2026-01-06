@@ -1,10 +1,9 @@
 export default [
-  'strapi::errors',
-
+  'strapi::errors', 
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://natalia-portfolio.onrender.com'],
+      origin: ['http://localhost:4200', 'https://natalia-portfolio.onrender.com'],
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
       headers: ['Content-Type', 'Authorization'],
